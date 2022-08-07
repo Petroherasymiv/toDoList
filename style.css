@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 99vh;
+    display: flex;
+}
+
+.leftBox {
+    margin-right: 40px;
+    padding-top: 100px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rightBox {
+    width: 50%;
+    height: 100%;
+}
+
+input[type="text"], input[type="password"],input[type="email"]{
+    margin-bottom: 25px;
+    width: 600px;
+    height: 40px;
+}
+input[value="Add user"]{
+    display: block;
+    width: 100px;
+    height: 40px;
+}
+input[value="Edit user"]{
+    display: none;
+    width: 100px;
+    height: 40px;
+}
+input[value="Delete"],input[value="Edit"]{
+    width: 70px;
+    height: 30px;
+    margin-left: -10px;
+
+}
+.box{
+    margin-top: 100px;
+}
+th {
+    text-align: left;
+    width: 120px;
+    height: 50px;
+    /*border:1px solid black;*/
+}
+/*td{*/
+/*    border:1px solid black;*/
+
+/*}*/
+.column{
+    width: 120px;
+    height: 50px;
+}
+.row{
+    width: 730px;
+    border:1px solid black;
+}
